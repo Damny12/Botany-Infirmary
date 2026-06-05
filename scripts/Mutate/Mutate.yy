@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Mutate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Mutate",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
