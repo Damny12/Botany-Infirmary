@@ -1,21 +1,31 @@
 {
   "$GMRoom":"v1",
-  "%Name":"The_WIlderness",
+  "%Name":"The_Wilderness",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_60FBFFE0","path":"rooms/The_WIlderness/The_WIlderness.yy",},
+    {"name":"inst_60FBFFE0","path":"rooms/The_Wilderness/The_Wilderness.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_60FBFFE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60FBFFE0","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
+          -160,0,3,4,5,6,-24,0,3,4,5,6,-3,0,3,4,5,6,-7,0,3,8,9,10,-24,0,3,8,9,10,-3,0,3,8,9,10,-7,0,3,8,9,10,-24,
+          0,3,12,13,14,-3,0,3,12,13,14,-7,0,3,8,9,10,-40,0,3,8,9,10,-4,0,3,4,5,6,-33,0,10,8,9,1,5,5,6,0,8,9,10,
+          -13,0,4,4,5,5,6,-16,0,1,8,-4,9,5,10,0,12,13,14,-13,0,4,8,9,9,10,-3,0,4,4,5,5,6,-5,0,5,4,5,6,0,8,-4,9,
+          5,1,6,4,5,6,-13,0,4,12,11,9,10,-3,0,4,8,9,9,10,-4,0,15,4,15,9,10,0,8,9,2,13,11,9,10,8,9,10,-14,0,10,
+          8,9,1,6,0,0,12,13,13,14,-4,0,15,8,9,2,14,0,8,9,10,0,8,9,10,8,9,10,-14,0,5,8,9,9,1,6,-9,0,15,8,9,10,0,
+          0,12,13,14,0,12,13,14,8,9,10,-14,0,8,12,11,9,9,1,5,5,6,-5,0,4,4,15,9,10,-9,0,3,12,13,14,-15,0,2,12,11,
+          -4,9,2,1,6,-4,0,4,8,9,2,14,-28,0,1,12,-3,13,4,11,9,1,6,-3,0,3,8,9,10,-33,0,10,12,11,9,1,6,0,4,15,9,10,
+          -34,0,9,8,9,9,1,5,15,9,9,10,-34,0,2,12,11,-5,9,2,2,14,-35,0,1,12,-5,13,1,14,-145,0,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Grass","path":"tilesets/Grass/Grass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"The_WIlderness",
+  "name":"The_Wilderness",
   "parent":{
     "name":"Botany Infirmatry",
     "path":"Botany Infirmatry.yyp",
