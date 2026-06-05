@@ -1,30 +1,21 @@
 {
   "$GMRoom":"v1",
-  "%Name":"The_Wilderness",
+  "%Name":"Startup",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_60FBFFE0","path":"rooms/The_Wilderness/The_Wilderness.yy",},
+    {"name":"inst_2D3A09B7","path":"rooms/Startup/Startup.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_60FBFFE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60FBFFE0","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2D3A09B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D3A09B7","objectId":{"name":"oStartup","path":"objects/oStartup/oStartup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Grass","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Grass","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
-          -56,9,1,2,-11,13,1,11,-27,9,4,2,13,13,14,-11,0,1,12,-3,13,1,11,-22,9,2,2,14,-18,0,1,8,-21,9,2,2,14,-19,
-          0,1,8,-21,9,1,10,-5,0,1,4,-8,5,1,6,-5,0,1,8,-21,9,1,10,-5,0,1,8,-8,9,3,1,5,6,-3,0,1,8,-21,9,1,10,-5,
-          0,1,8,-10,9,5,1,6,0,0,8,-21,9,1,10,-5,0,1,8,-11,9,4,10,0,0,8,-21,9,1,10,-5,0,1,8,-11,9,5,10,0,0,12,11,
-          -20,9,1,10,-5,0,1,8,-11,9,1,10,-3,0,1,8,-20,9,1,10,-5,0,1,8,-11,9,1,10,-3,0,1,8,-20,9,2,1,6,-4,0,1,8,
-          -11,9,1,10,-3,0,1,8,-21,9,1,10,-4,0,2,12,11,-4,9,1,2,-5,13,1,14,-3,0,1,8,-21,9,1,10,-5,0,1,12,-4,13,
-          1,14,-9,0,1,8,-21,9,1,10,-20,0,1,8,-21,9,2,1,6,-19,0,1,8,-22,9,1,10,-18,0,2,4,15,-22,9,3,1,5,6,-15,0,
-          2,4,15,-25,9,1,1,-15,5,1,15,-186,9,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tGrass","path":"tilesets/tGrass/tGrass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"The_Wilderness",
+  "name":"Startup",
   "parent":{
     "name":"Botany Infirmatry",
     "path":"Botany Infirmatry.yyp",

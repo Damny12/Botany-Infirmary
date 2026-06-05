@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Grass",
+  "%Name":"tGrass",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[9,15,1,5,11,8,3,4,2,7,10,6,13,12,14,0,],},
   ],
@@ -9,13 +9,13 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Grass",
+  "name":"tGrass",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Botany Infirmatry",
-    "path":"Botany Infirmatry.yyp",
+    "name":"Tiles",
+    "path":"folders/Tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
