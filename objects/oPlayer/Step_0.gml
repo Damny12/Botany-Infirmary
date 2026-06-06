@@ -9,22 +9,22 @@ var _ground=layer_tilemap_get_id("Grass")
 //movement
 if (_upControl){
     yVel-=speedY
-    sprite_index=sTempUp
+    sprite_index=sUp
 }
 
 if (_downControl){
     yVel+=speedY
-    sprite_index=sTempDown
+    sprite_index=sDown
 }
 
 if (_rightControl){
     xVel+=speedX
-    sprite_index=sTempRight
+    sprite_index=sRight
 }
 
 if (_leftControl){
     xVel-=speedX
-    sprite_index=sTempLeft
+    sprite_index=sLeft
 }
 
 //limit velocity
@@ -45,7 +45,7 @@ if (abs(xVel) >= xTermVel){
 }
 
 //stop at blank ground
-var _subPixel=0.5/global.precision
+var _subPixel=0.5/power(10,global.precision)
 
 if (!place_meeting(x+xVel,y,_ground)){
 	var _pixelCheck= _subPixel*sign(xVel)
@@ -78,17 +78,17 @@ yVel/=Yfriction
 
 //diagonals
 if (_downControl and _rightControl){
-    sprite_index=sTempDownRight
+    sprite_index=sDownRight
 }
 
 if (_downControl and _leftControl){
-    sprite_index=sTempDownLeft
+    sprite_index=sDownLeft
 }
 
 if (_upControl and _rightControl){
-    sprite_index=sTempUpRight
+    sprite_index=sUpRight
 }
 
 if (_upControl and _leftControl){
-    sprite_index=sTempUpLeft
+    sprite_index=sUpLeft
 }

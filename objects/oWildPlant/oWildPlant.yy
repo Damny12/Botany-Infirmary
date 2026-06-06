@@ -32,7 +32,7 @@
     {"$GMObjectProperty":"v2","%Name":"maxEnergy","filters":[],"listItems":[],"multiselect":false,"name":"maxEnergy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"mutationProbability","filters":[],"listItems":[],"multiselect":false,"name":"mutationProbability","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"energyIntake","filters":[],"listItems":[],"multiselect":false,"name":"energyIntake","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.01","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"speciesName","filters":[],"listItems":[],"multiselect":false,"name":"speciesName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Evergreen Sapling","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"speciesName","filters":[],"listItems":[],"multiselect":false,"name":"speciesName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

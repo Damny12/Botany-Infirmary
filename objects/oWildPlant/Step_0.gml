@@ -1,15 +1,16 @@
-energy-=energyIntake
+tick+=1
+if (tick==tickToProduce){
+    show_debug_message($"TICK!{tickToProduce}")
+    energy-=energyIntake
 
-show_debug_message($"plant:{self}, energy:{energy}")
-if (energy<=0){
-    instance_destroy(self)
+    if (energy<=0){ 
+        instance_destroy(self)
+    }
+
+    energy+=leafEfficiency
+
+    if (energy>=maxEnergy){
+        energy=maxEnergy
+    }
+    tick=0
 }
-
-energy+=leafEfficiency
-
-if (energy>=maxEnergy){
-    energy=maxEnergy
-}
-
-show_debug_log(true)
-show_debug_message(global.species)

@@ -1,4 +1,4 @@
-function PopulateWilderness(amount,fraction){
+function PopulateWilderness(amount,fraction,species){
     x=32
     y=32
     var _target=amount
@@ -11,7 +11,12 @@ function PopulateWilderness(amount,fraction){
         x+=32
         var _grass=layer_tilemap_get_id("Grass")
         if (position_meeting(x,y,_grass) and irandom_range(1,fraction)==1){
-            instance_create_layer(x,y,"Plants",oWildPlant)
+            instance_create_layer(x,y,"Plants",oWildPlant,{
+                leafEfficiency:global.species[$ species][0],
+                maxEnergy:global.species[$ species][1],
+                mutationProbability:global.species[$ species][2],
+                energyIntake:global.species[$ species][3]
+            })
             _target-=1
         }
     }

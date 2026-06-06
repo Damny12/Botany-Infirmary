@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTempUp",
-    "path":"sprites/sTempUp/sTempUp.yy",
+    "name":"sUp",
+    "path":"sprites/sUp/sUp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
